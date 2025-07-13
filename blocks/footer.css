@@ -1,0 +1,12 @@
+.hr {
+  height: 1px;
+  border: 0;
+  padding: 0;
+}
+
+.footer__copyright {
+  border-top: 1px rgba(33, 33, 33, 0.4) solid;
+  text-align: center;
+  padding: 50px 0;
+  opacity: 70%;
+}
