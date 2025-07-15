@@ -8,11 +8,14 @@
   margin-right: 20px;
   height: 190px;
   width: 190px;
+  border-radius: 8px;
 }
 
 .profile__column {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  max-width: 420px;
 }
 
 .profile__name {
@@ -26,9 +29,10 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  color: #212121;
 }
 
-.prfile__description {
+.profile__description {
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -36,20 +40,38 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  color: #212121;
+  font-weight: 500;
 }
 
 .profile__edit-btn {
   margin-top: auto;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  gap: 8px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  opacity: 1;
 }
 
 .profile__add-btn {
-  margin: 120px 0 0 auto;
+  margin-left: auto;
+  align-self: end;
+  cursor: pointer;
   width: 149px;
   height: 52px;
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
   gap: 8px;
+}
+
+.profile__add-btn:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
@@ -68,7 +90,8 @@
   }
 
   .profile__add-btn {
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .profile__name {
@@ -79,6 +102,7 @@
 
   .profile__column {
     margin: 0 0 20px;
+    align-items: center;
   }
 
   .profile__description {
