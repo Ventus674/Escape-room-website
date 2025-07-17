@@ -16,6 +16,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
+  color: #212121;
 }
 
 .card__content {
