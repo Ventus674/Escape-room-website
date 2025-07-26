@@ -3,4 +3,8 @@
   padding: 60px 0;
   color: #212121;
   margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  opacity: 70%;
 }
