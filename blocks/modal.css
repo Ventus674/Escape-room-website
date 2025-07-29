@@ -1,5 +1,4 @@
 .modal {
-  display: none;
   visibility: hidden;
   background-color: #00000080;
   position: fixed;
@@ -15,7 +14,6 @@
 
 .modal_is-opened {
   visibility: visible;
-  display: block;
 }
 
 .modal__container {
