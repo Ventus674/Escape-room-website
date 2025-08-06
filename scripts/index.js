@@ -18,8 +18,14 @@ const addCardFormElement = newPostModal.querySelector(".modal__form");
 const newPostClosedBtn = newPostModal.querySelector(".modal__close-btn");
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
-const openModal = document.querySelector("modal_is-opened");
-const closeModal = document.querySelector("modal");
+
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
 
 editProfileBtn.addEventListener("click", function () {
   openModal(editProfileModal);
