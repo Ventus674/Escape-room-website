@@ -136,11 +136,10 @@ function getCardElement(data) {
     previewImageEl.alt = data.name;
     previewName.textContent = data.name;
     openModal(previewModal);
-    });
   });
 
   previewModalClosedBtn.addEventListener("click", function () {
-      closeModal(previewModal);
-
+    closeModal(previewModal);
+  });
   return cardElement;
 }
