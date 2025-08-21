@@ -11,6 +11,7 @@
   display: block;
   margin-bottom: 12px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card__title {
@@ -40,6 +41,7 @@
   background-image: url(../images/delete.svg);
   border: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .card__delete-btn:hover {

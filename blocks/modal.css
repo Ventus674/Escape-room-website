@@ -33,7 +33,7 @@
   position: relative;
 }
 
-.modal__image-conatiner {
+.modal__image-container {
   position: relative;
 }
 
@@ -50,12 +50,13 @@
   color: white;
 }
 
-.modal__close_type_preview {
+.modal__close_btn_type_preview {
   top: 0;
   right: -52.5px;
+  cursor: pointer;
 }
 
-.modal__close_type_preview:hover {
+.modal__close_btn_type_preview:hover {
   opacity: 40%;
 }
 .modal__close-btn {
@@ -65,6 +66,7 @@
   border: none;
   background-color: transparent;
   color: #212121;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -132,8 +134,4 @@
     top: -48px;
     right: 0;
   }
-}
-
-.modal__image {
-  max-width: unset;
 }
