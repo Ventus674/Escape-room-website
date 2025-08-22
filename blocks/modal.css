@@ -50,13 +50,13 @@
   color: white;
 }
 
-.modal__close_btn_type_preview {
+.modal__close_type_preview {
   top: 0;
   right: -52.5px;
   cursor: pointer;
 }
 
-.modal__close_btn_type_preview:hover {
+.modal__close_type_preview:hover {
   opacity: 40%;
 }
 .modal__close-btn {
@@ -113,6 +113,7 @@
   color: #fcf5e5;
   border-radius: 8px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -130,7 +131,7 @@
 }
 
 @media screen and (max-width: 627px) {
-  .modal__close_type_preview {
+  .modal__close-btn_type_preview {
     top: -48px;
     right: 0;
   }
