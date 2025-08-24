@@ -83,6 +83,10 @@ newPostClosedBtn.addEventListener("click", function () {
   closeModal(newPostModal);
 });
 
+previewModalClosedBtn.addEventListener("click", function () {
+  closeModal(previewModal);
+});
+
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
@@ -138,8 +142,5 @@ function getCardElement(data) {
     openModal(previewModal);
   });
 
-  previewModalClosedBtn.addEventListener("click", function () {
-    closeModal(previewModal);
-  });
   return cardElement;
 }

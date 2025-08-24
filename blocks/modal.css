@@ -38,8 +38,8 @@
 }
 
 .modal__image {
-  max-width: 80vh;
-  min-height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
   width: 100%;
   object-fit: contain;
   display: block;
