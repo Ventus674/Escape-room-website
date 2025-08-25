@@ -50,15 +50,6 @@
   color: white;
 }
 
-.modal__close-btn_type_preview {
-  top: 0;
-  right: -52.5px;
-  cursor: pointer;
-}
-
-.modal__close-btn_type_preview:hover {
-  opacity: 40%;
-}
 .modal__close-btn {
   position: absolute;
   top: 32px;
@@ -67,6 +58,16 @@
   background-color: transparent;
   color: #212121;
   cursor: pointer;
+}
+
+.modal__close-btn_type_preview {
+  top: 0;
+  right: -52.5px;
+  cursor: pointer;
+}
+
+.modal__close-btn_type_preview:hover {
+  opacity: 40%;
 }
 
 .modal__title {
@@ -100,6 +101,7 @@
   font-size: 20px;
   line-height: 1;
   padding: 8px 14px 16px;
+  box-sizing: border-box;
 }
 
 .modal__input::placeholder {
@@ -123,8 +125,9 @@
 
   .modal__input {
     font-size: 16px;
-    width: 90%;
+    width: 100%;
     height: auto;
+    box-sizing: border-box;
   }
 
   .modal__close-btn {
