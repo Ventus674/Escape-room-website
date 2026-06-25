@@ -76,5 +76,83 @@
         }
       ]
     }
+  },
+  {
+    "id": 1782274462355,
+    "roomName": "Extraterrestrial Escape",
+    "title": "Rexburg Re-Escape",
+    "state": "ID",
+    "totalScore": 25,
+    "puzzleScore": 14,
+    "atmosphereScore": 7,
+    "otherScore": 4,
+    "sections": {
+      "puzzles": [
+        {
+          "question": "I enjoyed the puzzles in the room and they were unique:",
+          "score": 3,
+          "description": "Wasn't honestly a big fan of the puzzles. A lot of them were very basic with the only unique one being a seatbelt from a chair we had to initially sit in. The rest were pretty forgettable.",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "There were lots of puzzles and rooms that reflected the player ratio:",
+          "score": 3,
+          "description": "This room was very small and in fairness this room was designed for 2-3 people so I understand less puzzles. But there were lots of the boxes, big props, and shelves we weren't even allowed to touch because they had nothing to do with the room. I just found it odd that they didn't fill in any of those spots with puzzles to interact with. It just seemed pretty lazy",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "Puzzles used and triggered mechanical and electrical engineering throughout the room:",
+          "score": 5,
+          "description": "I'll give them some credit here. 3 different puzzles that we solved triggered a box to open away from the actual puzzle itself. And they worked pretty well despite them making me jump when it would drop something on the floor haha.",
+          "keyImage": "./images/5.png"
+        },
+        {
+          "question": "All puzzles had a purpose and they were solvable without a hint:",
+          "score": 3,
+          "description": "While I'll say that everything was solvable without a hint which I appreciated. I don't mind a decoy puzzle, but they had 2. Not only that but they reused one of the puzzles. Explain to me why we even need to reuse a key when we have 2 decoys in a VERY SMALL ROOM. Again, I don't mind a decoy to throw off the players, but having 2 as well the room being small made this very frustrating.",
+          "keyImage": "./images/3.png"
+        }
+      ],
+      "atmosphere": [
+        {
+          "question": "There was a clear and interesting story that matched the theme:",
+          "score": 3,
+          "description": "The story was that aliens captured us and we needed to get off the ship. Pretty straight forward and I haven't heard of too many rooms to do it surprisingly. But there was nothing else that fleshed out that storyline and no further dialogue or media clips or anything.",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "Lots of props and puzzles helped build the atmosphere:",
+          "score": 4,
+          "description": "I would've given this a 3 or a 2 because at first glance it's a very simple decorated room that looks like it was thrown together in one evening. But the manikin of the scientist that the aliens captured and stuffed in a locker helped out a little more. Only one puzzle I would say had an alien theme though. ",
+          "keyImage": "./images/4.png"
+        },
+        {
+          "question": "There was visual and physical special effects to add to the immersion:",
+          "score": 0,
+          "description": "Outside of the mechanical engineering, there really wasn't anything that contributed to this.",
+          "keyImage": "./images/0.png"
+        },
+        {
+          "question": "There was music and audio effects that added to the immersion:",
+          "score": 0,
+          "description": "Dead quiet. No sound from anything except the outside.",
+          "keyImage": "./images/0.png"
+        }
+      ],
+      "other": [
+        {
+          "question": "There were creative ideas that put a unique twist from the average escape room:",
+          "score": 2,
+          "description": "Can't say there was much. Points for the seatbelt puzzle and the story not being overused I guess.",
+          "keyImage": "./images/2.png"
+        },
+        {
+          "question": "The employees ensured it was a great experience (Ex: room works correct, respectful, attentive, helps create the mood)",
+          "score": 2,
+          "description": "This employee looked like she absolutely hated her job. Very low energy. One of the puzzles opened before we had solved it and she just yelled at us to put it back. When our time ran out before we finished, I thought she was nice and let us complete the room, but she was just on her phone when we opened the door and didn't even look up when we escaped. Just about as bad as it could get.",
+          "keyImage": "./images/2.png"
+        }
+      ]
+    }
   }
 ]
