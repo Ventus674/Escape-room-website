@@ -1,14 +1,17 @@
 const express = require("express");
 const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
 
 const app = express();
 const PORT = 3000;
 
-const fs = require("fs");
-const path = require("path");
+app.use(cors());
+app.use(express.json());
 
 const reviewsFile = path.join(__dirname, "reviews.json");
 
+// Load reviews
 function loadReviewsFromFile() {
   if (!fs.existsSync(reviewsFile)) {
     fs.writeFileSync(reviewsFile, "[]");
@@ -17,32 +20,43 @@ function loadReviewsFromFile() {
   return JSON.parse(fs.readFileSync(reviewsFile, "utf8"));
 }
 
+// Save reviews
 function saveReviewsToFile(reviews) {
   fs.writeFileSync(reviewsFile, JSON.stringify(reviews, null, 2));
 }
 
-app.use(cors());
-app.use(express.json());
-
 let reviews = loadReviewsFromFile();
 
-// Get all reviews
+console.log(`Loaded ${reviews.length} review(s).`);
+
+// =======================
+// GET ALL REVIEWS
+// =======================
+
 app.get("/api/reviews", (req, res) => {
   res.json(reviews);
 });
 
-// Add a review
+// =======================
+// CREATE REVIEW
+// =======================
+
 app.post("/api/reviews", (req, res) => {
   const newReview = {
-    id: Date.now(),
     ...req.body,
+    id: Date.now(),
   };
 
   reviews.push(newReview);
+
   saveReviewsToFile(reviews);
 
   res.status(201).json(newReview);
 });
+
+// =======================
+// UPDATE REVIEW
+// =======================
 
 app.put("/api/reviews/:id", (req, res) => {
   const reviewId = Number(req.params.id);
@@ -50,11 +64,12 @@ app.put("/api/reviews/:id", (req, res) => {
   const reviewIndex = reviews.findIndex((review) => review.id === reviewId);
 
   if (reviewIndex === -1) {
-    return res.status(404).json({ message: "Review not found" });
+    return res.status(404).json({
+      message: "Review not found",
+    });
   }
 
   reviews[reviewIndex] = {
-    ...reviews[reviewIndex],
     ...req.body,
     id: reviewId,
   };
@@ -64,43 +79,24 @@ app.put("/api/reviews/:id", (req, res) => {
   res.json(reviews[reviewIndex]);
 });
 
-// Delete a review
+// =======================
+// DELETE REVIEW
+// =======================
+
 app.delete("/api/reviews/:id", (req, res) => {
   const reviewId = Number(req.params.id);
 
   reviews = reviews.filter((review) => review.id !== reviewId);
+
   saveReviewsToFile(reviews);
-  res.json({ message: "Review deleted" });
+
+  res.json({
+    message: "Review deleted",
+  });
 });
 
-// Filter/sort reviews
-app.get("/api/reviews/filter/:type", (req, res) => {
-  const type = req.params.type;
-  let filteredReviews = [...reviews];
-
-  if (type === "highest") {
-    filteredReviews.sort((a, b) => b.totalScore - a.totalScore);
-  }
-
-  if (type === "lowest") {
-    filteredReviews.sort((a, b) => a.totalScore - b.totalScore);
-  }
-
-  if (type === "puzzles") {
-    filteredReviews.sort((a, b) => b.puzzleScore - a.puzzleScore);
-  }
-
-  if (type === "atmosphere") {
-    filteredReviews.sort((a, b) => b.atmosphereScore - a.atmosphereScore);
-  }
-
-  if (type === "other") {
-    filteredReviews.sort((a, b) => b.otherScore - a.otherScore);
-  }
-
-  res.json(filteredReviews);
-});
+// =======================
 
 app.listen(PORT, () => {
-  console.log(`API running at http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
