@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1781586541976,
+    "roomName": "Chloe",
+    "title": "Alcatraz escapes (Lindon)",
+    "state": "UT",
+    "totalScore": 79,
+    "puzzleScore": 28,
+    "atmosphereScore": 37,
+    "otherScore": 14,
+    "sections": {
+      "puzzles": [
+        {
+          "question": "I enjoyed the puzzles in the room and they were unique:",
+          "score": 7,
+          "description": "Most of the puzzles didn’t have a lock which was cool but I would say some of them fell a little flat such as holding hands and touching a spot or using a letter key to decipher a word. While there were some basic ones there were a couple I found interesting and fun.",
+          "keyImage": "./images/7.png"
+        },
+        {
+          "question": "There were lots of puzzles and rooms that reflected the player ratio:",
+          "score": 7,
+          "description": "This one's a unique one to grade because it had 6 rooms which is the most I’ve seen from an escape room ever, but there were only about 2 puzzles in each one. I would say that 3 people felt more than enough for the puzzles but not necessarily for the escape room because it was so big.",
+          "keyImage": "./images/7.png"
+        },
+        {
+          "question": "Puzzles used and triggered mechanical and electrical engineering throughout the room:",
+          "score": 10,
+          "description": "This was one of the most unique parts of the room! Hardly anything was the stereotypical lock and key. Every puzzle gave a random object that you had to do something unique with in order to progress. ",
+          "keyImage": "./images/10.png"
+        },
+        {
+          "question": "All puzzles had a purpose and they were solvable without a hint:",
+          "score": 4,
+          "description": "Probably my biggest complaint about this. There were multiple correlations to things such as the drawings and the stuffed animals that actually had nothing to do with the room. Annoying, but pardonable, the real kicker was 2 useless puzzles/clues that didn’t do anything. 1 was playing cards on an altar. The second was a doll's body without its head that we found under the bed. We traded Chloe her Tiger for the doll’s head and assumed it would fit together to do something but weirdly, it literally had no point.",
+          "keyImage": "./images/4.png"
+        }
+      ],
+      "atmosphere": [
+        {
+          "question": "There was a clear and interesting story that matched the theme:",
+          "score": 9,
+          "description": "This is of course where the room shined. The entire story is of creepy Chloe and having to perform an exorcism to release the demon from her. We needed to get 5 objects to place in the ritual star to do the ritual. The reason it loses a point is after we did so Chloe just chased us out of the room and that was the end. They said we succeeded but it wasn’t really satisfying.",
+          "keyImage": "./images/9.png"
+        },
+        {
+          "question": "Lots of props and puzzles helped build the atmosphere:",
+          "score": 10,
+          "description": "Everything in the room was incredible at building atmosphere including the puzzles. There wasn't a single complaint with this and they did an amazing job.",
+          "keyImage": "./images/10.png"
+        },
+        {
+          "question": "There was visual and physical special effects to add to the immersion:",
+          "score": 10,
+          "description": "Another easy 10. Between the creepy live actor playing Chloe looking like the girl from the Ring jumpscaring us and the lights that occasionally flashed and different fancy mechanics opening boxes, I was very impressed.",
+          "keyImage": "./images/10.png"
+        },
+        {
+          "question": "There was music and audio effects that added to the immersion:",
+          "score": 8,
+          "description": "The music and the sounds were very creepy and eerie and added to the atmosphere a ton. However the middle point of the room the music and sounds stopped for like 10 minutes which made it a lot less scary.",
+          "keyImage": "./images/8.png"
+        }
+      ],
+      "other": [
+        {
+          "question": "There were creative ideas that put a unique twist from the average escape room:",
+          "score": 8,
+          "description": "This room felt like a haunted house that was also an escape room. None of the rooms had doorknobs or locked so whenever one opened Chloe would force you inside the next room. You actually needed access to all the rooms for certain puzzles so it made this mechanic unique and challenging. I also like that Chloe helped you only if you kept her happy such as things like trades for things she wanted.",
+          "keyImage": "./images/8.png"
+        },
+        {
+          "question": "The employees ensured it was a great experience (Ex: room works correct, respectful, attentive, helps create the mood)",
+          "score": 6,
+          "description": "The actor Chloe was incredible which is what redeems some points, however our game host wasn’t great. She didn’t reset the room properly causing the doors to not open at the appropriate time and we got stuck at one point. The flashlight I also had was dead, which seems like a very easy fix for them to do prior to it starting. When I went to ask for a new flashlight she gave me a hint for the room which was an unasked for spoiler.",
+          "keyImage": "./images/6.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1782274462355,
+    "roomName": "Extraterrestrial Escape",
+    "title": "Rexburg Re-Escape",
+    "state": "ID",
+    "totalScore": 25,
+    "puzzleScore": 14,
+    "atmosphereScore": 7,
+    "otherScore": 4,
+    "sections": {
+      "puzzles": [
+        {
+          "question": "I enjoyed the puzzles in the room and they were unique:",
+          "score": 3,
+          "description": "Wasn't honestly a big fan of the puzzles. A lot of them were very basic with the only unique one being a seatbelt from a chair we had to initially sit in. The rest were pretty forgettable.",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "There were lots of puzzles and rooms that reflected the player ratio:",
+          "score": 3,
+          "description": "This room was very small and in fairness this room was designed for 2-3 people so I understand less puzzles. But there were lots of the boxes, big props, and shelves we weren't even allowed to touch because they had nothing to do with the room. I just found it odd that they didn't fill in any of those spots with puzzles to interact with. It just seemed pretty lazy",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "Puzzles used and triggered mechanical and electrical engineering throughout the room:",
+          "score": 5,
+          "description": "I'll give them some credit here. 3 different puzzles that we solved triggered a box to open away from the actual puzzle itself. And they worked pretty well despite them making me jump when it would drop something on the floor haha.",
+          "keyImage": "./images/5.png"
+        },
+        {
+          "question": "All puzzles had a purpose and they were solvable without a hint:",
+          "score": 3,
+          "description": "While I'll say that everything was solvable without a hint which I appreciated. I don't mind a decoy puzzle, but they had 2. Not only that but they reused one of the puzzles. Explain to me why we even need to reuse a key when we have 2 decoys in a VERY SMALL ROOM. Again, I don't mind a decoy to throw off the players, but having 2 as well the room being small made this very frustrating.",
+          "keyImage": "./images/3.png"
+        }
+      ],
+      "atmosphere": [
+        {
+          "question": "There was a clear and interesting story that matched the theme:",
+          "score": 3,
+          "description": "The story was that aliens captured us and we needed to get off the ship. Pretty straight forward and I haven't heard of too many rooms to do it surprisingly. But there was nothing else that fleshed out that storyline and no further dialogue or media clips or anything.",
+          "keyImage": "./images/3.png"
+        },
+        {
+          "question": "Lots of props and puzzles helped build the atmosphere:",
+          "score": 4,
+          "description": "I would've given this a 3 or a 2 because at first glance it's a very simple decorated room that looks like it was thrown together in one evening. But the manikin of the scientist that the aliens captured and stuffed in a locker helped out a little more. Only one puzzle I would say had an alien theme though. ",
+          "keyImage": "./images/4.png"
+        },
+        {
+          "question": "There was visual and physical special effects to add to the immersion:",
+          "score": 0,
+          "description": "Outside of the mechanical engineering, there really wasn't anything that contributed to this.",
+          "keyImage": "./images/0.png"
+        },
+        {
+          "question": "There was music and audio effects that added to the immersion:",
+          "score": 0,
+          "description": "Dead quiet. No sound from anything except the outside.",
+          "keyImage": "./images/0.png"
+        }
+      ],
+      "other": [
+        {
+          "question": "There were creative ideas that put a unique twist from the average escape room:",
+          "score": 2,
+          "description": "Can't say there was much. Points for the seatbelt puzzle and the story not being overused I guess.",
+          "keyImage": "./images/2.png"
+        },
+        {
+          "question": "The employees ensured it was a great experience (Ex: room works correct, respectful, attentive, helps create the mood)",
+          "score": 2,
+          "description": "This employee looked like she absolutely hated her job. Very low energy. One of the puzzles opened before we had solved it and she just yelled at us to put it back. When our time ran out before we finished, I thought she was nice and let us complete the room, but she was just on her phone when we opened the door and didn't even look up when we escaped. Just about as bad as it could get.",
+          "keyImage": "./images/2.png"
+        }
+      ]
+    }
+  }
+]
