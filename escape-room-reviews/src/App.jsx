@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:3000/api/reviews";
+const API_URL = "https://escape-room-website.onrender.com";
 
 const states = [
   "AL",

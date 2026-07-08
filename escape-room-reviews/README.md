@@ -1,22 +1,25 @@
-# Project 3: Spots
+# Escape-room-website
 
 ### Overview
 
-The project Spots in on Figma, an image sharing website.
+This is an escape room review website
 
 **Description**
 
-The purpose of it is to take beautiful photos and add it to your page similarly to websites like VSCO. Anyone can create an account and add their own unique photos for others to enjoy. The code within it makes it fit well for all screen sizes and allows them to put captions on their photos as well as like the ones that stand out to them most.
+This project allows you to create reviews for escape rooms and post them online! You can flesh it out with descriptions and even sort them neatly in folders. Finally, there are keys that represent each rating to give it more aesthetic.
 
 **Tech Stack**
 
 - HTML
 - CSS
-- Responsive Design
+- REACT
+- Javascript
 
-**Figma Deployment link**
+**Front end project link**
+escape-room-website-ventus674-ventus674s-projects.vercel.app
 
-[Project link:] (https://ventus674.github.io/se_project_spots/)
+**Back end project link**
+https://render.com/docs/web-services#port-binding
 
 **Recording of project**
 
